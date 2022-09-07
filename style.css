@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 .image_photo {
     width: 300px;
     height: 407px;
-    background: url("/img/georgii_photo.png") no-repeat;
+    background: url("img/georgii_photo.png") no-repeat;
     background-size: 412px;
     margin: 10px auto 10px;
     border-radius: 10px;
