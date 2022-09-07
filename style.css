@@ -1,0 +1,314 @@
+:root {
+    --background_size_300px: 300px;
+}
+
+.content {
+    width: 300px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: gray;        /* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.name_surname {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.image_photo {
+    width: 300px;
+    height: 407px;
+    background: url("/img/georgii_photo.png") no-repeat;
+    background-size: 412px;
+    margin: 10px auto 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+}
+
+.skills {
+    background: #9e9e9e;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.image_html5 {
+    width: 300px;
+    height: 300px;
+    background: url("/img/html5_image.png") no-repeat;
+    background-size: var(--background_size_300px);
+    margin: auto;
+}
+
+.css3_image {
+    background: url("/img/css3_image.png") no-repeat;
+    background-size: var(--background_size_300px);
+    margin: auto;
+}
+
+.JS_image {
+    background: url("/img/JS_image.png") no-repeat;
+    background-size: var(--background_size_300px);
+    margin: auto;
+}
+
+.django_image {
+    background: url("/img/django_image.png") no-repeat;
+    background-size: var(--background_size_300px);
+    margin: auto auto 15px;
+    padding-bottom: 15px;
+}
+
+.python_image {
+    background: url("img/python_image.png") no-repeat;
+    background-size: var(--background_size_300px);
+    margin: auto;
+}
+
+.text_project {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.search_project {
+    outline: none;
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+}
+
+::placeholder {
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.project {
+    background: #9e9e9e;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.image_project {
+
+}
+
+.description_project {
+    padding: 10px;
+}
+
+.name_project {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    margin: 15px auto 15px;
+}
+
+.quiz_image {
+    width: 300px;
+    height: 210px;
+    background: url("/projects_image/quiz_image.png") no-repeat;
+    background-size: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.tag {
+    background: blue;
+    width: max-content;
+    height: 30px;
+    border-radius: 10px;
+    color: #FFF;
+    line-height: 30px;
+    padding: 1px 10px;
+    border: 2px solid blue;
+    box-shadow: 0 0 10px blue;
+}
+
+.tag:hover {
+    background: #FFFFFF;
+    border: 2px solid blue;
+    color: black;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    background: blue;
+    padding: 10px;
+    color: #FFF;
+    width: 260px;
+    border-radius: 10px;
+    margin: auto auto 10px;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+.button:hover {
+    background: #FFFFFF;
+    color: black;
+}
+
+.certificate_1 {
+    width: 300px;
+    height: 261px;
+    background: url("/certificates/certificate_geekbrains.png") no-repeat;
+    background-size: 463px;
+    background-position-x: -94px;
+    background-position-y: -28px;
+    margin: auto auto 20px;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+}
+
+.text_certificate {
+    margin: 10px auto 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.point {
+    background: cadetblue;
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px blue;
+}
+
+.points {
+    display: flex;
+    gap: 10px;
+    margin: auto auto 10px;
+    width: 150px;
+}
+
+input[type='search'] {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 600px;
+        margin: auto;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .django_image {
+        margin: 30px auto 30px;
+    }
+
+    .tags {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 20px auto;
+    }
+
+    .certificate_1 {
+        width: 600px;
+        height: 410px;
+        background-size: 725px;
+        background-position-x: -57px;
+        background-position-y: -46px;
+    }
+
+    .search_project {
+        width: 600px;
+    }
+
+    #quiz_project {
+        margin: 25px auto 0;
+    }
+
+    #list_project_activity {
+        margin: 7px auto 0;
+    }
+
+    .button:hover {
+        box-shadow: 0 0 10px;
+    }
+
+    .point {
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content {
+        width: 900px;
+        margin: auto;
+    }
+
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tags {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .search_project {
+        width: 900px;
+    }
+
+    .certificate_1 {
+        width: 900px;
+        height: 620px;
+        background-size: 1100px;
+        background-position-x: -92px;
+        background-position-y: -75px;
+    }
+}
