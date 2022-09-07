@@ -51,25 +51,25 @@ body::-webkit-scrollbar-thumb {
 .image_html5 {
     width: 300px;
     height: 300px;
-    background: url("/img/html5_image.png") no-repeat;
+    background: url("img/html5_image.png") no-repeat;
     background-size: var(--background_size_300px);
     margin: auto;
 }
 
 .css3_image {
-    background: url("/img/css3_image.png") no-repeat;
+    background: url("img/css3_image.png") no-repeat;
     background-size: var(--background_size_300px);
     margin: auto;
 }
 
 .JS_image {
-    background: url("/img/JS_image.png") no-repeat;
+    background: url("img/JS_image.png") no-repeat;
     background-size: var(--background_size_300px);
     margin: auto;
 }
 
 .django_image {
-    background: url("/img/django_image.png") no-repeat;
+    background: url("img/django_image.png") no-repeat;
     background-size: var(--background_size_300px);
     margin: auto auto 15px;
     padding-bottom: 15px;
@@ -136,7 +136,7 @@ body::-webkit-scrollbar-thumb {
 .quiz_image {
     width: 300px;
     height: 210px;
-    background: url("/projects_image/quiz_image.png") no-repeat;
+    background: url("projects_image/quiz_image.png") no-repeat;
     background-size: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb {
 .certificate_1 {
     width: 300px;
     height: 261px;
-    background: url("/certificates/certificate_geekbrains.png") no-repeat;
+    background: url("certificates/certificate_geekbrains.png") no-repeat;
     background-size: 463px;
     background-position-x: -94px;
     background-position-y: -28px;
