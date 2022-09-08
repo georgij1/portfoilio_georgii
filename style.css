@@ -298,6 +298,20 @@ input[type='search'] {
     background-position-x: -133px;
 }
 
+.dark_body {
+    background: black;
+    color: #FFFFFF;
+}
+
+.not_visible {
+    display: none;
+}
+
+.tag_click {
+    background: white;
+    color: black;
+}
+
 @media (min-width: 768px) {
     .content {
         width: 600px;

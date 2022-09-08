@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Георгий Панов</title>
@@ -7,8 +8,8 @@
     <link rel="icon" href="img/georgii_photo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
 
+<body>
     <div class="content">
         <div class="name_surname">Георгий Панов</div>
         <div class="image_photo"></div>
@@ -22,8 +23,14 @@
     </div>
     <div class="content">
         <div class="text_project">Проекты</div>
-        <input type="search" placeholder="Введите проект для поиска..." class="search_project">
+
+        <input type="search" id="searchProject" placeholder="Введите проект для поиска..." class="search_project" onkeyup="updateProjectList()">
+
         <div class="tags">
+            <div class="tag">Frontend</div>
+            <div class="tag">Backend</div>
+            <div class="tag">Вёрстка из Figma</div>
+            <div class="tag">Программы</div>
             <div class="tag">Викторина</div>
             <div class="tag">Словарь Английского языка</div>
             <div class="tag">Калькулятор личных доходов</div>
@@ -31,65 +38,53 @@
             <div class="tag">Гарри Поттер</div>
             <div class="tag">Дизайн часов из Figma</div>
         </div>
+
         <div class="projects">
             <div class="project">
                 <div class="image_project quiz_image"></div>
                 <div class="name_project">Викторина</div>
-                <div class="description_project" id="description_project_1">
-                    <b>Викторина</b> - это викторина для проверки знаний в области программирования
-                </div>
+                <div class="description_project" id="description_project_1">Викторина - это викторина для проверки знаний в области программирования</div>
                 <div class="button">Перейти</div>
             </div>
 
             <div class="project">
                 <div class="image_project vocabulary_image"></div>
                 <div class="name_project">Словарь Английского языка</div>
-                <div class="description_project" id="description_project_2">
-                    <b>Словарь Английского языка</b> - это самозаполняющийся словарь для запоминания англоязычных слов
-                </div>
+                <div class="description_project" id="description_project_2">Словарь Английского языка - это самозаполняющийся словарь для запоминания англоязычных слов</div>
                 <div class="button">Перейти</div>
             </div>
 
             <div class="project">
                 <div class="image_project calculate_money_image"></div>
                 <div class="name_project">Калькулятор личных доходов</div>
-                <div class="description_project" id="description_project_3">
-                    <b>Калькулятор личных доходов</b> - это расчётный калькулятор для расчёта сколько денег остаётся на месяц
-                </div>
+                <div class="description_project" id="description_project_3">Калькулятор личных доходов - это расчётный калькулятор для расчёта сколько денег остаётся на месяц</div>
                 <div class="button">Перейти</div>
             </div>
 
             <div class="project">
                 <div class="image_project harry_potter_image"></div>
                 <div class="name_project">Вёрстка страницы о Гарри Поттере</div>
-                <div class="description_project" id="description_project_4">
-                    <b>Гарри Поттер</b> - это вёрстка веб-страницы из Figma
-                </div>
+                <div class="description_project" id="description_project_4">Гарри Поттер - это вёрстка веб-страницы из Figma</div>
                 <div class="button">Перейти</div>
             </div>
 
             <div class="project">
                 <div class="image_project list_activity"></div>
                 <div class="name_project">Список дел</div>
-                <div class="description_project" id="description_project_5">
-                    <b>Список дел</b> - это программа для создания списка. Если вы обновите страницу список не исчезнет
-                </div>
+                <div class="description_project" id="description_project_5">Список дел - это программа для создания списка. Если вы обновите страницу список не исчезнет</div>
                 <div class="button">Перейти</div>
             </div>
 
             <div class="project">
                 <div class="image_project watch_design_image"></div>
                 <div class="name_project">Дизайн часов из Figma</div>
-                <div class="description_project" id="description_project_6">
-                    <b>Дизайн часов из Figma</b> - это вёрстка простого дизайна из Figma
-                </div>
+                <div class="description_project" id="description_project_6">Дизайн часов из Figma - это вёрстка простого дизайна из Figma</div>
                 <div class="button">Перейти</div>
             </div>
         </div>
 
-        <div class="text_certificate">
-            Сертификаты
-        </div>
+        <div class="text_certificate">Сертификаты</div>
+
         <div class="certificate">
             <div class="certificate_1"></div>
             <div class="points">
@@ -102,6 +97,11 @@
         </div>
     </div>
     <div class="button dark_theme">Тёмная тема</div>
+
+    <!--Js files link-->
+    <script src="js/search.js"></script>
+    <script src="js/dark_theme.js"></script>
+    <script src="js/tag.js"></script>
 </body>
 </html>
 
