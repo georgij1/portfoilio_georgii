@@ -396,6 +396,8 @@ input[type='search'] {
 
     .tag:hover {
         box-shadow: 0 0 10px blue;
+        background: blue;
+        color: #FFF;
     }
 
     .point {
