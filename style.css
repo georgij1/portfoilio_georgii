@@ -4,7 +4,7 @@
 
 .content {
     width: 300px;
-    margin: auto;
+    margin: auto auto 75px;
 }
 
 body {
@@ -46,33 +46,42 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 0 10px;
     border-radius: 15px;
     margin: 20px auto;
+    padding-bottom: 1px;
+    padding: 10px 0 1px;
 }
 
 .image_html5 {
     width: 300px;
     height: 300px;
     background: url("img/html5_image.png") no-repeat;
-    background-size: var(--background_size_300px);
-    margin: auto;
+    box-shadow: 0 0 10px blue;
+    border-radius: 1000px;
+    margin: 20px auto;
+    background-size: 358px;
+    background-position-x: -28px;
+    background-position-y: -22px;
 }
 
 .css3_image {
     background: url("img/css3_image.png") no-repeat;
-    background-size: var(--background_size_300px);
     margin: auto;
+    background-size: 360px;
+    background-position-x: -30px;
+    background-position-y: -27px;
 }
 
 .JS_image {
     background: url("img/JS_image.png") no-repeat;
     background-size: var(--background_size_300px);
-    margin: auto;
+    margin: 30px auto;
 }
 
 .django_image {
     background: url("img/django_image.png") no-repeat;
     background-size: var(--background_size_300px);
-    margin: auto auto 15px;
+    margin: 30px auto;
     padding-bottom: 15px;
+    height: 284px;
 }
 
 .python_image {
@@ -131,6 +140,8 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     width: 200px;
     margin: 15px auto 15px;
+    box-shadow: 0 0 10px beige;
+    padding: 10px 50px;
 }
 
 .quiz_image {
@@ -186,11 +197,11 @@ body::-webkit-scrollbar-thumb {
 
 .certificate_1 {
     width: 300px;
-    height: 261px;
+    height: 245px;
     background: url("certificates/certificate_geekbrains.png") no-repeat;
-    background-size: 463px;
-    background-position-x: -94px;
-    background-position-y: -28px;
+    background-size: 428px;
+    background-position-x: -69px;
+    background-position-y: -29px;
     margin: auto auto 20px;
     box-shadow: 0 0 10px blue;
     border-radius: 10px;
@@ -209,6 +220,7 @@ body::-webkit-scrollbar-thumb {
     width: 50px;
     border-radius: 10px;
     box-shadow: 0 0 3px blue;
+    position: relative;
 }
 
 .points {
@@ -220,6 +232,70 @@ body::-webkit-scrollbar-thumb {
 
 input[type='search'] {
     cursor: pointer;
+}
+
+.dark_theme {
+    position: fixed;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    box-shadow: 0 0 10px blue;
+    margin: 10px auto 0;
+    width: 280px;
+    bottom: 10px;
+}
+
+.animation {
+    width: 100%;
+    position: absolute;
+}
+
+.vocabulary_image {
+    width: 300px;
+    height: 170px;
+    background: url("/projects_image/vocabulary_image.png") no-repeat;
+    background-size: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+}
+
+.calculate_money_image {
+    width: 300px;
+    height: 190px;
+    background: url("/projects_image/calculate_money_image.png") no-repeat;
+    background-size: 457px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+}
+
+.list_activity {
+    width: 300px;
+    height: 190px;
+    background: url("/projects_image/list_activity.png") no-repeat;
+    background-size: 756px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+    background-position-x: -215px;
+}
+
+.harry_potter_image {
+    width: 300px;
+    height: 190px;
+    background: url("/projects_image/harry_potter_image.png") no-repeat;
+    background-size: 647px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+    background-position-x: -205px;
+}
+
+.watch_design_image {
+    width: 300px;
+    height: 206px;
+    background: url("/projects_image/design_watch.png") no-repeat;
+    background-size: 647px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+    background-position-x: -133px;
 }
 
 @media (min-width: 768px) {
@@ -262,10 +338,6 @@ input[type='search'] {
         width: 600px;
     }
 
-    #quiz_project {
-        margin: 25px auto 0;
-    }
-
     #list_project_activity {
         margin: 7px auto 0;
     }
@@ -276,6 +348,78 @@ input[type='search'] {
 
     .point {
         cursor: pointer;
+    }
+
+    .image_photo {
+        box-shadow: none;
+    }
+
+    .image_photo:hover  {
+        box-shadow: 0 0 10px blue;
+    }
+
+    .image_html5 {
+        box-shadow: none;
+    }
+
+    .image_html5:hover {
+        box-shadow: 0 0 10px blue;
+    }
+
+    .search_project {
+        box-shadow: none;
+    }
+
+    .search_project:hover {
+        box-shadow: 0 0 10px blue;
+    }
+
+    .tag {
+        box-shadow: none;
+        width: 170px;
+        text-align: center;
+    }
+
+    .tag:hover {
+        box-shadow: 0 0 10px blue;
+    }
+
+    .point {
+        box-shadow: none;
+    }
+
+    .point:hover {
+        box-shadow: 0 0 3px blue;
+    }
+
+    .name_project:hover {
+        box-shadow: 0 0 10px beige;
+    }
+
+    .dark_theme {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        top: 10px;
+        box-shadow: 0 0 10px blue;
+        margin: 10px auto 30px;
+        width: 576px;
+    }
+
+    #description_project_1 {
+        height: 60px;
+    }
+
+    #description_project_2 {
+        height: 73px;
+    }
+
+    #description_project_4 {
+        height: 63px;
+    }
+
+    #description_project_5 {
+        height: 85px;
     }
 }
 
@@ -297,7 +441,13 @@ input[type='search'] {
     .tags {
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tag {
+        width: 252px;
+        text-align: center;
+        margin: auto;
     }
 
     .search_project {
@@ -310,5 +460,51 @@ input[type='search'] {
         background-size: 1100px;
         background-position-x: -92px;
         background-position-y: -75px;
+    }
+
+    #list_project_activity {
+        margin: 5px auto 0;
+    }
+
+    .project {
+        width: 300px;
+    }
+
+    .button {
+        width: 252px;
+    }
+
+    .quiz_image {
+        width: 300px;
+        height: 200px;
+        background-size: 300px;
+    }
+
+    .name_project {
+        width: 200px;
+    }
+
+    .dark_theme {
+        width: 876px;
+    }
+
+    #description_project_4 {
+        height: 69px;
+    }
+
+    #description_project_2 {
+        height: 83px;
+    }
+
+    #description_project_1 {
+        height: 80px;
+    }
+
+    #description_project_5 {
+        height: 96px;
+    }
+
+    #description_project_6 {
+        height: 53px;
     }
 }
