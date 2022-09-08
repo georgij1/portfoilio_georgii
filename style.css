@@ -312,6 +312,12 @@ input[type='search'] {
     color: black;
 }
 
+.tag_click:hover {
+    background: blue;
+    color: #FFF;
+    box-shadow: 0 0 10px blue;
+}
+
 @media (min-width: 768px) {
     .content {
         width: 600px;
@@ -396,8 +402,6 @@ input[type='search'] {
 
     .tag:hover {
         box-shadow: 0 0 10px blue;
-        background: blue;
-        color: #FFF;
     }
 
     .point {
