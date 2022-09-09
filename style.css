@@ -126,10 +126,6 @@ body::-webkit-scrollbar-thumb {
     width: 300px;
 }
 
-.image_project {
-
-}
-
 .description_project {
     padding: 10px;
 }
@@ -259,7 +255,7 @@ input[type='search'] {
 .vocabulary_image {
     width: 300px;
     height: 170px;
-    background: url("/projects_image/vocabulary_image.png") no-repeat;
+    background: url("projects_image/vocabulary_image.png") no-repeat;
     background-size: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
@@ -268,7 +264,7 @@ input[type='search'] {
 .calculate_money_image {
     width: 300px;
     height: 190px;
-    background: url("/projects_image/calculate_money_image.png") no-repeat;
+    background: url("projects_image/calculate_money_image.png") no-repeat;
     background-size: 457px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
@@ -277,7 +273,7 @@ input[type='search'] {
 .list_activity {
     width: 300px;
     height: 190px;
-    background: url("/projects_image/list_activity.png") no-repeat;
+    background: url("projects_image/list_activity.png") no-repeat;
     background-size: 756px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
@@ -287,7 +283,7 @@ input[type='search'] {
 .harry_potter_image {
     width: 300px;
     height: 190px;
-    background: url("/projects_image/harry_potter_image.png") no-repeat;
+    background: url("projects_image/harry_potter_image.png") no-repeat;
     background-size: 647px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
@@ -297,7 +293,7 @@ input[type='search'] {
 .watch_design_image {
     width: 300px;
     height: 206px;
-    background: url("/projects_image/design_watch.png") no-repeat;
+    background: url("projects_image/design_watch.png") no-repeat;
     background-size: 647px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
