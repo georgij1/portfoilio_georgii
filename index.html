@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Георгий Панов</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider/slider.css">
     <link rel="icon" href="img/georgii_photo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -88,14 +89,25 @@
         <div class="text_certificate">Сертификаты</div>
 
         <div class="certificate">
-            <div class="certificate_1"></div>
-            <div class="points">
-                <div class="point">
-                    <div class="animation"></div>
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <div class="certificate_1"></div>
                 </div>
-                <div class="point"></div>
-                <div class="point"></div>
+                <div class="slide">
+                    <div class="certificate_2"></div>
+                </div>
+                <div class="slide">
+                    <div class="certificate_3"></div>
+                </div>
+                <div id="btn-prev"></div>
+                <div id="btn-next"></div>
             </div>
+        </div>
+
+        <div class="dots-wrapper">
+            <span class="dot active point"></span>
+            <span class="dot point"></span>
+            <span class="dot point"></span>
         </div>
 
     </div>

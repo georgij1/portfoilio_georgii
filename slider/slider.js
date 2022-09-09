@@ -25,7 +25,7 @@ const activeDot = (n) => {
 }
 
 const nextSlide = () => {
-    if (index == slides.length - 1){
+    if (index === slides.length - 1){
         index = 0;
         activeSlide(index);
         activeDot(index);
@@ -40,7 +40,7 @@ const nextSlide = () => {
 next.addEventListener('click', nextSlide);
 
 const prevSlide = () => {
-    if (index == 0){
+    if (index === 0){
         index = 0;
         activeSlide(index);
         activeDot(index);
