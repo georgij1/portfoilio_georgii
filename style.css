@@ -236,13 +236,19 @@ input[type='search'] {
 
 .dark_theme {
     position: fixed;
-    bottom: 0;
     left: 8px;
     right: 8px;
     box-shadow: 0 0 10px blue;
-    margin: 10px auto 0;
-    width: 280px;
     bottom: 10px;
+    text-align: center;
+    background: blue;
+    padding: 10px;
+    color: #FFF;
+    width: 260px;
+    border-radius: 10px;
+    margin: auto auto 10px;
+    cursor: pointer;
+    border: 2px solid blue;
 }
 
 .animation {
@@ -312,13 +318,13 @@ input[type='search'] {
     color: black;
 }
 
-.tag_click:hover {
-    background: blue;
-    color: #FFF;
-    box-shadow: 0 0 10px blue;
-}
-
 @media (min-width: 768px) {
+    .tag_click:hover {
+        background: blue;
+        color: #FFF;
+        box-shadow: 0 0 10px blue;
+    }
+
     .content {
         width: 600px;
         margin: auto;
@@ -440,6 +446,11 @@ input[type='search'] {
 
     #description_project_5 {
         height: 85px;
+    }
+
+    .dark_theme:hover {
+        background: #FFFFFF;
+        color: black;
     }
 }
 
