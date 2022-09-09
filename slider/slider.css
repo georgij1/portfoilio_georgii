@@ -70,6 +70,7 @@ span {
     margin-right: 10px;
     cursor: pointer;
 }
+
 span:last-child {
     margin-right: 0;
 }
@@ -77,7 +78,7 @@ span:last-child {
 .certificate_2 {
     width: 300px;
     height: 245px;
-    background: url("/certificates/certificate_geekbrains.png") no-repeat;
+    background: url("../certificates/certificate_geekbrains.png") no-repeat;
     background-size: 428px;
     background-position-x: -69px;
     background-position-y: -29px;
@@ -89,7 +90,7 @@ span:last-child {
 .certificate_3 {
     width: 300px;
     height: 245px;
-    background: url("/certificates/certificate_geekbrains.png") no-repeat;
+    background: url("../certificates/certificate_geekbrains.png") no-repeat;
     background-size: 428px;
     background-position-x: -69px;
     background-position-y: -29px;
