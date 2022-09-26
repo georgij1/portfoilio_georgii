@@ -342,6 +342,40 @@ input[type='search'] {
     cursor: pointer;
 }
 
+.image_TestPlatform {
+    width: 300px;
+    height: 160px;
+    background: url("projects_image/icon_TestPlatform.png") no-repeat;
+    background-size: 144px;
+    background-position-x: center;
+    background-position-y: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+}
+
+.name_framework {
+    font-style: italic;
+}
+
+.name_framework_bold {
+    font-style: italic;
+}
+
+.flex_text_sentence {
+    display: flex;
+    gap: 10px;
+}
+
+.image_hackathon {
+    width: 300px;
+    height: 259px;
+    background: url("projects_image/image_hackathon.png") no-repeat;
+    background-size: 512px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px beige;
+    background-position: -36px;
+}
+
 @media (min-width: 768px) {
     .tag_click:hover {
         background: blue;
