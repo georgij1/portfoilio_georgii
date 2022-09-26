@@ -16,6 +16,12 @@
 
 * ><a href='https://georgij1.github.io/layout_quick_loans/'>Дизайн часов из Figma</a>
 
+* ><a href='https://github.com/viklover/TestPlatform'>Платформа тестов</a>
+
+**Ссылка на портфолио:**
+
+* ><a href='https://georgij1.github.io/portfoilio_georgii/'>Портфолио</a>*
+
 # English language:
     Portfolio Georgii Panov
 
@@ -32,3 +38,9 @@
 * ><a href='https://georgij1.github.io/harryPotter/index.html'>Harry Potter</a>
 
 * ><a href='https://georgij1.github.io/layout_quick_loans/'>Watch design from Figma</a>
+
+* ><a href='https://github.com/viklover/TestPlatform'>TestPlatform</a>
+
+**Link to portfolio**
+
+* ><a href='https://georgij1.github.io/portfoilio_georgii/'>Portfolio</a>

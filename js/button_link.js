@@ -9,3 +9,15 @@ for (let button of document.querySelectorAll('.button')) {
         console.log(button)
     })
 }
+
+for (let link_data of document.querySelectorAll('.data_link')) {
+    link_data.addEventListener('click', function (evt) {
+        if (link_data.dataset.newpage === "false") {
+            window.open(link_data.dataset.link, '_blank');
+        }
+        else {
+            window.open(link_data.dataset.link)
+        }
+        console.log(link_data)
+    })
+}
