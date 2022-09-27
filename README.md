@@ -20,7 +20,7 @@
 
 **Ссылка на портфолио:**
 
-* ><a href='https://georgij1.github.io/portfoilio_georgii/'>Портфолио</a>*
+* ><a href='https://georgij1.github.io/portfoilio_georgii/'>Портфолио</a>
 
 # English language:
     Portfolio Georgii Panov
