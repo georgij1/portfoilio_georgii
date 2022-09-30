@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Георгий Панов</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="slider/slider.css">
+<!--    <link rel="stylesheet" href="slider/slider.css">-->
+    <link rel="stylesheet" href="slider_project/slider_project.css">
     <link rel="icon" href="img/georgii_photo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,6 +19,81 @@
             <div class="text_DescriptionStudent">
                 17 лет. Я ученик второго курса <div class="data_link" data-link="https://ekat.ithub.ru/">IThubEkat.</div>
             </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="projects_image/project_codepen/slider_project_1.png" style="width:100%">
+                <div class="flex">
+                    <div class="text">Слайдер в виде карточек</div>
+                    <div class="description_project_slider">
+                        Слайдер в виде карточек написан на JavaScript.
+                        <div class="data_link_to_project" data-link="https://codepen.io/georgij1/pen/BaxzRYP">Перейти к проекту</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="projects_image/project_codepen/gameBoard_project_2.png" style="width:100%">
+                <div class="flex">
+                    <div class="text">Доска - игра</div>
+                    <div class="description_project_slider">
+                        Это игра в которую вы сможете поиграть прямо в браузере.
+                        <div class="data_link_to_project" data-link="https://codepen.io/georgij1/pen/RwyROzR">Перейти к проекту</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="projects_image/project_codepen/gameBrowser_project_3.png" style="width:100%">
+                <div class="flex">
+                    <div class="text">Aim Training в браузере</div>
+                    <div class="description_project_slider">
+                        Эта полноценная игра и всё это прямо в браузере
+                        <div class="data_link_to_project" data-link="https://codepen.io/georgij1/pen/jOxVeXp">Перейти к проекту</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="projects_image/project_codepen/professional_slider_project_4.png" style="width:100%">
+                <div class="flex">
+                    <div class="text">Професcиональный слайдер</div>
+                    <div class="description_project_slider">
+                        По этому гайду вы создадите профессиональный слайдер в браузере + секретная функция
+                        <div class="data_link_to_project" data-link="https://codepen.io/georgij1/pen/dyeXQEw">Перейти к проекту</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="projects_image/project_codepen/Drag_and_drop_task.png" style="width:100%">
+                <div class="flex">
+                    <div class="text">Drag and drop</div>
+                    <div class="description_project_slider">
+                        Знаменитая технология Drag and drop. Эта технология будет работать на планшетах и смартфонах.
+                        <div class="data_link_to_project" data-link="https://codepen.io/georgij1/details/oNdLerj">Перейти к проекту</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                    <div class="prev" onclick="plusSlides(-1)">Предыдущий</div>
+                    <div class="next" onclick="plusSlides(1)">Следующий</div>
+                </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </div>
 
@@ -119,8 +195,6 @@
             </div>
         </div>
 
-
-
         <div class="text_certificate">Сертификаты</div>
 
         <div class="certificate">
@@ -154,6 +228,6 @@
     <script src="js/dark_theme.js"></script>
     <script src="js/tag.js"></script>
     <script src="js/button_link.js"></script>
-<!--    <script src="slider/slider.js"></script>-->
+    <script src="slider_project/slider_project.js"></script>
 </body>
 </html>

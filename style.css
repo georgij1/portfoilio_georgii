@@ -46,7 +46,6 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 0 10px;
     border-radius: 15px;
     margin: 20px auto;
-    padding-bottom: 1px;
     padding: 10px 0 1px;
 }
 
@@ -369,11 +368,10 @@ input[type='search'] {
 .image_hackathon {
     width: 300px;
     height: 259px;
-    background: url("projects_image/image_hackathon.png") no-repeat;
     background-size: 512px;
     border-radius: 10px;
     box-shadow: 0 0 10px beige;
-    background-position: -36px;
+    background: url("projects_image/image_hackathon.png") no-repeat -36px;
 }
 
 @media (min-width: 768px) {
@@ -537,6 +535,39 @@ input[type='search'] {
         background-position-x: -1px;
         background-position-y: -213px;
     }
+
+    .slider_project {
+        display: flex;
+    }
+
+    .slides {
+        height: 250px;
+    }
+
+    .slider_project_1 {
+        background-size: 450px;
+    }
+
+    .buttons {
+        flex-direction: row;
+    }
+
+    .data_link_to_project:hover {
+        background: #FFF;
+        color: black;
+    }
+
+    .dot_button:hover {
+        background: #0000FF;
+        border: 2px solid #0000FF;
+        box-shadow: 0 4px 4px rgb(0 0 0 / 25%), inset 0 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .button_prevent_default_slide:hover, .button_next_slide:hover {
+        background: #FFF;
+        transition-delay: 0.2s;
+        color: black;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -632,5 +663,17 @@ input[type='search'] {
         background-size: 504px;
         background-position-x: -100px;
         background-position-y: 0;
+    }
+
+    .content_1 {
+        width: 900px;
+    }
+
+    .slides {
+        width: 450px;
+    }
+
+    .slider_project_1 {
+        width: 450px;
     }
 }

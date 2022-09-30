@@ -1,0 +1,156 @@
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.description_project_slider {
+    color: black;
+    padding: 10px 10px 30px;
+    width: 300px;
+    height: max-content;
+    background: #D9D9D9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: gray;
+    font-weight: 700;
+    font-family: cursive;
+    margin: auto auto 30px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto 20px;
+}
+
+.prev, .next {
+    background: #0000FF;
+    border: 2px solid #0000FF;
+    color: #FFF;
+    margin: auto;
+    width: 286px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+    background: #FFF;
+    color: black;
+}
+
+.text {
+    font-size: 15px;
+    position: relative;
+    width: 280px;
+    text-align: center;
+    margin: 30px auto;
+    background: url("/img/opacity.png");
+    display: flex;
+    font-style: oblique;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 900;
+    color: blue;
+}
+
+.dot {
+    width: 35px;
+    height: 10px;
+    margin: 0 2px;
+    display: inline-block;
+    background: #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+    width: 35px;
+    height: 10px;
+    background: #0000FF;
+    border: 2px solid #0000FF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.data_link_to_project {
+    width: 300px;
+    height: 50px;
+    background: #0000FF;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    font-family: system-ui;
+    cursor: pointer;
+    border: 2px solid #0000FF;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {
+        font-size: 11px
+    }
+}
+
+@media (min-width: 768px) {
+    .buttons {
+        flex-direction: row;
+    }
+
+    .flex {
+        display: flex;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 700px;
+    }
+    .description_project_slider {
+        text-align: center;
+        width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text {
+        width: 900px;
+    }
+
+    .description_project_slider {
+        width: 900px;
+    }
+}

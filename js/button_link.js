@@ -21,3 +21,15 @@ for (let link_data of document.querySelectorAll('.data_link')) {
         console.log(link_data)
     })
 }
+
+for (let data_link_project of document.querySelectorAll('.data_link_to_project')) {
+    data_link_project.addEventListener('click', function (evt) {
+        if (data_link_project.dataset.newpage === "false") {
+            window.open(data_link_project.dataset.link, '_blank');
+        }
+        else {
+            window.open(data_link_project.dataset.link)
+        }
+        console.log(data_link_project)
+    })
+}
