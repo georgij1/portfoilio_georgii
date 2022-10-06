@@ -56,7 +56,7 @@ img {
     position: relative;
     width: 280px;
     text-align: center;
-    margin: 30px auto;
+    margin: 10px auto 20px;
     background: url("../img/opacity.png");
     display: flex;
     font-style: oblique;
